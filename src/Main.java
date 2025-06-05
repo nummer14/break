@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int score = 61;
+        String color = "빨강";
 
-        String result = (score > 60) ? "통과" : "탈락";
+        String choiceColor = (color == "빨강") ? "빨강" : "파랑";
 
-        System.out.println("결과: " + result);
+        System.out.println(choiceColor);
     }
 }
